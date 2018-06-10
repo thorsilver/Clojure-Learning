@@ -76,4 +76,4 @@
           ""
           suspect-values))
   
-
+ (println (suspects->csv (add-suspect initial-suspects {:name "Nosferatu", :glitter-index 7})))
